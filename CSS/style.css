@@ -1,0 +1,40 @@
+/*
+        BOX MODEL
+        content: Conteúdo > Texto, Imagem, Video, Audio
+        padding : espaçamento interno > Entre o conteudo e a borda
+        border: Borda > Linha que envolve o elemento
+        margin: Margem > Espaçamento externo > Entre a borda e o proximo elemento
+
+*/
+*{ /*seletor universal */
+    box-sizing: border-box;
+}
+
+.title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+}
+.box{
+    width: 330px;/* px, % */
+    height: 330px; /* px, % */
+    border-width: 2px; /* largura */
+    border-style: solid; /* estilo */
+    border-color:rgb(14, 13, 13); /* cor */
+
+    padding: 20px; /* espaçamento interno */
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+
+    
+}
+
+.side{
+    width: 150px;
+    min-height: 260px;
+    border: 2px solid black;
+    margin: 20px; /* espaçamento externo */
+    padding: 10px;
+}
